@@ -5,7 +5,8 @@
     padding: 0;
 }
 body{
-    background-color:#f58269;
+    background-color:black;
+    color: white;
 }
 
 .sidebar{
@@ -13,19 +14,20 @@ body{
     position: absolute;
     width: 200px;
     height: 100vh;
-    background-color:#f09a87;
+    background-color:black;
     
     opacity: 0.9;
    transition: transform 0.4s ease-in;
 }
 .sidebar nav li a{
     padding:5px 15px;
+    color: white;
     text-decoration: none;
-    color: black;
+    
   border-radius: 20px;
 }
 .sidebar nav li a:hover{
-
+    color: black;
   background-color: white;
 }
 
@@ -43,7 +45,7 @@ body{
     
 }
 .sidebar nav{
-    padding: 30px;
+    padding: 0px;
 }
 .sidebar nav li{
     list-style: none;
@@ -53,7 +55,7 @@ body{
     font-weight: bold;
 }
 .main{
-    color: black;
+    
     width: 90vw;
 }
 .container{ 
@@ -295,13 +297,14 @@ border: 3px solid white;
     width: 180px;
 }
 .combine{
+    color: white;
  
     font-family: 'Baloo Bhaijaan', cursive;
     text-align: center;
     padding-left: 33px;
     margin-top: 33px;
     margin-left: 34px;
-    color: black;
+ 
 }
 .combine h1{
     
@@ -366,10 +369,12 @@ border: 3px solid white;
     margin: 3px 6px;
 padding: 35px;
 border-radius: 30px;
+background-color: white;
 }
 .box p a{
     font-family: 'Baloo Bhaijaan', cursive;
     cursor: pointer;
+ 
     text-decoration: none;
     color: black;
 }
